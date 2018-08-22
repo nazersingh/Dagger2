@@ -12,7 +12,7 @@ import com.nazer.saini.daggerapp.manager.dagger.module.NetModule;
 public class MyApplication extends Application {
 
 
-    public static final String BASE_URL = "http://brang.ignivastaging.com/";
+    public static final String BASE_URL = "https://reqres.in";
     public static final String MANGO_BASE_URL = "https://api.sandbox.mangopay.com/v2.01/";
 
 

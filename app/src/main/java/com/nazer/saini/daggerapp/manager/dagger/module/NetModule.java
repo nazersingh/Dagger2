@@ -64,7 +64,7 @@ public class NetModule {
 //        interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
 
         client.cache(cache);
-        client.addInterceptor(new HttpLoggingInterceptor());
+        client.addInterceptor(new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY));
         client.addInterceptor(new Interceptor() {
             @SuppressLint("LongLogTag")
             @Override
